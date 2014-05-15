@@ -57,6 +57,7 @@
 			<p><a href="#page1" data-role="button" data-transition="slide">Vista elenco</a></p>
 			<p><a href="#page2" data-role="button" data-transition="slide">Vista mappa</a></p>
 			<p><a href="#page3" data-role="button" data-transition="slide">Dettaglio stallo</a></p>
+			<p><a href="#page4" data-role="button" data-transition="slide">info</a></p>
 		</div><!-- /content -->
 
 		<div data-role="footer" data-position="fixed" data-tap-toggle="false">
@@ -156,33 +157,7 @@
 			</h3>
 		</div>
 		<div data-role="content">
-			<div>
-				<b>
-					This is your Nomad project...
-				</b>
-			</div>
-			<ul data-role="listview" data-divider-theme="e" data-inset="true">
-				<li data-role="list-divider" role="heading">
-					Getting Started
-				</li>
-				<li data-theme="c">
-					<a href="http://www.vsnomad.com/documentation" target="_newtab">
-						Read the guide
-					</a>
-				</li>
-				<li data-theme="c">
-					<a href="http://vsnomad.zendesk.com/" target="_newtab">
-						Report a problem
-					</a>
-				</li>
-				<li data-theme="c">
-					Hit the build button and try it on a device!
-				</li>
-			</ul>
-
-			<hr />
-
-			<ul data-role="listview" data-divider-theme="e">
+			<ul data-role="listview" data-inset="true">
 				<li data-role="list-divider" role="heading">
 					Device Information
 				</li>
@@ -208,9 +183,8 @@
 					<p>Uses navigator.geolocation.watchPosition</p>
 				</li>
 				<li data-theme="c">
-					<img alt="" src="images/choosephoto.png" id="picture" /><button data-role="button" data-inline="true" onclick="showPictures();">
-						Choose a picture
-					</button>
+					<img alt="" src="images/choosephoto.png" id="picture" />
+					<button class="ui-btn ui-btn-inline" data-role="button" onclick="showPictures();">Choose a picture</button>
 					<p><span id="geolocationerror"></span></p>
 				</li>
 			</ul>
