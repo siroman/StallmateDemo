@@ -206,9 +206,9 @@
 
 				document.addEventListener("deviceready", function () {
 
-					if (device.platform === 'iOS' && device.version.indexOf('7') !== -1) {
+					//if (device.platform === 'iOS' && device.version.indexOf('7') !== -1) {
 						document.body.style.marginTop = "20px";
-					}
+					//}
 
 					// Compass
 					compassWatchID = navigator.compass.watchHeading(function (heading) {
