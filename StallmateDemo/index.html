@@ -8,13 +8,15 @@
 	<script src="scripts/jquery.ui.map.js" type="text/javascript"></script>
 	<script src="scripts/jquery.ui.map.extensions.js" type="text/javascript"></script>
 	<script src="scripts/jquery.ui.map.services.js" type="text/javascript"></script>
-	<script src="cordova.js" type="text/javascript"></script>-
+	<script src="scripts/knockout-3.1.0.js" type="text/javascript"></script>
+	<script src="scripts/app.js" type="text/javascript"></script>
+	<script src="cordova.js" type="text/javascript"></script>
 	<link rel="Stylesheet" href="Content/jquery.mobile.inline-svg-1.4.2.min.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script type="text/javascript">
 		$(function () {
 
-			var mobileDemo = { 'center': '41.8723890,12.4801800', 'zoom': 5 };
+			var mobileDemo = { 'center': '41.8723890,12.4801800', 'zoom': 15 };
 			$(document).on('pageinit', '#page2', function() {
 				$('#map_canvas').gmap({
 					'center': mobileDemo.center, 'zoom': mobileDemo.zoom, 'disableDefaultUI': false, 'callback': function (map) {
@@ -23,7 +25,13 @@
 							if (status === 'OK') {
 								var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 								if (!self.get('markers').client) {
-									self.addMarker({ 'id': 'client', 'position': latlng, 'bounds': true });
+									self.addMarker({ 'id': 'client', 'position': latlng, 'bounds': false });
+									$('#map_details').html(
+										'Lat: ' + position.coords.latitude.toFixed(3) + '<br>' +
+										'Long: ' + position.coords.longitude.toFixed(3) + '<br>' +
+										'Alt.: ' + position.coords.altitude.toFixed(3) + '<br>' +
+										'Accuracy: ' + position.coords.accuracy + '<br>' +
+										'Speed: ' + position.coords.speed + '<br>Zoom:' + map.getZoom());
 								} else {
 									self.get('markers').client.setPosition(latlng);
 									map.panTo(latlng);
@@ -70,53 +78,13 @@
 			<h1>vista elenco</h1>
 		</div>
 		<div data-role="content">
-			<ul data-role="listview" data-inset="true">
+
+			<ul data-role="listview" data-inset="true" data-bind="foreach: stalls">
 				<li>
-					<a href="#page3">
-						<h2>Elemento 1</h2>
-						<p>via tal dei tali</p>
-					</a>
-				</li>
-				<li>
-					<a href="#page3">
-						<h2>Elemento 2</h2>
-						<p>via tal dei tali</p>
-					</a>
-				</li>
-				<li>
-					<a href="#page3">
-						<h2>Elemento 3</h2>
-						<p>via tal dei tali</p>
-					</a>
-				</li>
-				<li>
-					<a href="#page3">
-						<h2>Elemento 4</h2>
-						<p>via tal dei tali</p>
-					</a>
-				</li>
-				<li>
-					<a href="#page3">
-						<h2>Elemento 5</h2>
-						<p>via tal dei tali</p>
-					</a>
-				</li>
-				<li>
-					<a href="#page3">
-						<h2>Elemento 6</h2>
-						<p>via tal dei tali</p>
-					</a>
-				</li>
-				<li>
-					<a href="#page3">
-						<h2>Elemento 7</h2>
-						<p>via tal dei tali</p>
-					</a>
-				</li>
-				<li>
-					<a href="#page3">
-						<h2>Elemento 8</h2>
-						<p>via tal dei tali</p>
+					<a href="#page3" data-transition="slide">
+						<h2 data-bind="text: name"></h2>
+						<p data-bind="text: address"></p>
+						Aggiornato: <span data-bind="text: new Date().toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, ' $1')"></span>
 					</a>
 				</li>
 			</ul>
@@ -132,6 +100,7 @@
 		</div>
 		<div data-role="content">
 			<div id="map_canvas" style="width:100%;height:250px"></div>
+			<div id="map_details"></div>
 		</div>
 		<div data-role="footer" data-position="fixed" data-tap-toggle="false">
 			<h4>Stall-mate demo</h4>

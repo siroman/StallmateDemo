@@ -692,6 +692,9 @@
     <Content Include="packages.config">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="scripts\app.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="scripts\jquery-1.6.4.js">
       <SubType>Content</SubType>
     </Content>
@@ -726,6 +729,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="scripts\jquery.ui.map.services.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\knockout-3.1.0.js">
       <SubType>Content</SubType>
     </Content>
     <Content Include="style\jquery.mobile-1.2.0.min.css">
