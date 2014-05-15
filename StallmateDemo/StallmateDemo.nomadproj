@@ -5,11 +5,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <CompiledOutputPath>distrib\</CompiledOutputPath>
     <OutputPath>bin\$(Configuration)</OutputPath>
-    <CordovaVersion>3.0</CordovaVersion>
+    <CordovaVersion>3.3</CordovaVersion>
     <BuildCloudVersion>2.0</BuildCloudVersion>
     <Name>StallmateDemo</Name>
     <RootNamespace>StallmateDemo</RootNamespace>
     <ProjectGuid>{2f550445-5a04-4437-8ae0-a1bb90cb9593}</ProjectGuid>
+    <BundleID>com.example.stallmatedemo</BundleID>
+    <Description />
+    <CertificatePath>Certificates\2014-05-14 - Nomad User</CertificatePath>
+    <ProvisioningProfilePath>ProvisioningProfiles\iOS_App_Demo.mobileprovision</ProvisioningProfilePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
