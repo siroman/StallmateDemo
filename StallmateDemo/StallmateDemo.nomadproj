@@ -719,6 +719,15 @@
     <Content Include="scripts\jquery.mobile-1.4.2.min.map">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="scripts\jquery.ui.map.extensions.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery.ui.map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery.ui.map.services.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="style\jquery.mobile-1.2.0.min.css">
       <SubType>Content</SubType>
     </Content>
