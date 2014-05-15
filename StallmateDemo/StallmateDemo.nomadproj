@@ -21,6 +21,663 @@
     <Content Include="config.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Content\images\ajax-loader.gif">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\ajax-loader.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-18-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-18-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-36-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-36-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\action-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\action-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\alert-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\alert-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-d-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-d-l-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-d-l-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-d-r-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-d-r-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-d-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-l-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-l-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-r-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-r-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-u-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-u-l-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-u-l-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-u-r-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-u-r-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\arrow-u-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\audio-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\audio-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\back-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\back-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\bars-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\bars-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\bullets-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\bullets-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\calendar-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\calendar-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\camera-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\camera-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-d-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-d-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-l-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-l-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-r-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-r-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-u-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\carat-u-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\check-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\check-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\clock-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\clock-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\cloud-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\cloud-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\comment-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\comment-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\delete-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\delete-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\edit-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\edit-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\eye-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\eye-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\forbidden-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\forbidden-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\forward-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\forward-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\gear-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\gear-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\grid-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\grid-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\heart-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\heart-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\home-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\home-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\info-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\info-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\location-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\location-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\lock-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\lock-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\mail-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\mail-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\minus-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\minus-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\navigation-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\navigation-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\phone-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\phone-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\plus-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\plus-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\power-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\power-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\recycle-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\recycle-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\refresh-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\refresh-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\search-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\search-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\shop-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\shop-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\star-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\star-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\tag-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\tag-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\user-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\user-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\video-black.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-png\video-white.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\action-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\action-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\alert-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\alert-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-d-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-d-l-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-d-l-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-d-r-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-d-r-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-d-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-l-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-l-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-r-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-r-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-u-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-u-l-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-u-l-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-u-r-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-u-r-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\arrow-u-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\audio-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\audio-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\back-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\back-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\bars-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\bars-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\bullets-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\bullets-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\calendar-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\calendar-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\camera-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\camera-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-d-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-d-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-l-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-l-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-r-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-r-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-u-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\carat-u-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\check-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\check-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\clock-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\clock-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\cloud-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\cloud-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\comment-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\comment-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\delete-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\delete-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\edit-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\edit-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\eye-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\eye-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\forbidden-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\forbidden-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\forward-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\forward-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\gear-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\gear-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\grid-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\grid-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\heart-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\heart-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\home-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\home-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\info-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\info-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\location-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\location-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\lock-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\lock-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\mail-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\mail-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\minus-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\minus-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\navigation-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\navigation-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\phone-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\phone-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\plus-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\plus-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\power-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\power-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\recycle-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\recycle-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\refresh-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\refresh-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\search-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\search-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\shop-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\shop-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\star-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\star-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\tag-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\tag-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\user-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\user-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\video-black.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\images\icons-svg\video-white.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile-1.4.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.external-png-1.4.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.external-png-1.4.2.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.icons-1.4.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.icons-1.4.2.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.inline-png-1.4.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.inline-png-1.4.2.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.inline-svg-1.4.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.inline-svg-1.4.2.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.structure-1.4.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.structure-1.4.2.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.theme-1.4.2.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\jquery.mobile.theme-1.4.2.min.css">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="index.html" />
     <Content Include="cordova.js">
       <SubType>Content</SubType>
@@ -28,10 +685,34 @@
     <Content Include="images\choosephoto.png">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="packages.config">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="scripts\jquery-1.6.4.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="scripts\jquery-2.1.1.intellisense.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery-2.1.1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery-2.1.1.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery-2.1.1.min.map">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="scripts\jquery.mobile-1.2.0.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery.mobile-1.4.2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery.mobile-1.4.2.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\jquery.mobile-1.4.2.min.map">
       <SubType>Content</SubType>
     </Content>
     <Content Include="style\jquery.mobile-1.2.0.min.css">
@@ -39,6 +720,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Content\images\" />
+    <Folder Include="Content\images\icons-png\" />
+    <Folder Include="Content\images\icons-svg\" />
     <Folder Include="images" />
     <Folder Include="style" />
     <Folder Include="scripts" />
