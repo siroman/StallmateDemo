@@ -206,7 +206,7 @@
 
 				document.addEventListener("deviceready", function () {
 
-					if (parseFloat(window.device.version) >= 7.0) {
+					if (device.platform === 'iOS' && device.version.indexOf('7') !== -1) {
 						document.body.style.marginTop = "20px";
 					}
 
