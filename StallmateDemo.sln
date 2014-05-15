@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4B160523-D178-4405-B438-79FB67C8D499}") = "StallmateDemo", "StallmateDemo\StallmateDemo.nomadproj", "{2F550445-5A04-4437-8AE0-A1BB90CB9593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F550445-5A04-4437-8AE0-A1BB90CB9593}.Debug|x86.ActiveCfg = Debug|x86
+		{2F550445-5A04-4437-8AE0-A1BB90CB9593}.Debug|x86.Build.0 = Debug|x86
+		{2F550445-5A04-4437-8AE0-A1BB90CB9593}.Release|x86.ActiveCfg = Release|x86
+		{2F550445-5A04-4437-8AE0-A1BB90CB9593}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
