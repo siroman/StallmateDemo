@@ -231,6 +231,11 @@
 				var compassWatchID;
 
 				document.addEventListener("deviceready", function () {
+
+					if (parseFloat(window.device.version) === 7.0) {
+						document.body.style.marginTop = "20px";
+					}
+
 					// Compass
 					compassWatchID = navigator.compass.watchHeading(function (heading) {
 						$('span#heading').html(heading.magneticHeading.toFixed(2) + '&#176;');
